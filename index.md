@@ -1,36 +1,10 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Lets Play C!
+tagline: C언어 공부를 위한 학습 블로그
 ---
 {% include JB/setup %}
-
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## Posts List
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +12,43 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+Read [c(프로그래밍 언어) - 위키백과](https://ko.wikipedia.org/wiki/C_%28%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4%29)
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+---
+
+## C (프로그래밍 언어)
+
+C는 1972년 켄 톰슨과 데니스 리치가 벨 연구소에서 일할 당시 새로 개발된 유닉스 운영 체제에서 사용하기 위해 개발한 프로그래밍 언어이다. 유닉스 시스템의 바탕 프로그램은 모두 C로 쓰여졌고, 많은 운영 체제의 커널도 또한 C로 만들어졌다. 오늘날 많이 쓰이는 C++는 C에서 객체 지향형 언어로 발전된 것이다. 또 다른 다양한 최신 언어들도 그 뿌리를 C에 두고 있다.
+
+---
+
+###역사
+    
+    * 1963년 - ALGOL 60에서 CPL이 파생
+    * 1969년 - BCPL 개발
+    * 1970년 - B언어 개발
+    * 1972년 - 벨 연구소 (Bell Laboratories) 에 있는 Dennis Ritchie가 B의 후속으로 C 개발
+    * 1983년 - 미국 국가 표준 협회(ANSI, American National Standards Institute) 에서 짐 브로디(Jim Brodie) 주축으로 X3J11 위원회 소집
+    * 1983년 12월 14일 - ANSI X3.159-1989 라는 공식명칭으로 C언어 표준 지정
+    * 1999년 - C99 표준안이 ISO/IEC 9899:1999라는 명칭으로 출간됨
+    * 2000년 5월 - ANSI의 표준으로 C99가 채택됨
+    * 2011년 - 12월 8일 C11 표준안이 ISO/IEC 9899:2011라는 명칭으로 출간됨
+    
 
 
+C언어는 최근까지도 향상되고 있는 언어이다.
+
+---
+
+### 헬로 월드 프로그램
+
+
+<div class="highlight"><pre><code class="language-text" data-lang="text">{% highlight c linenos %}
+#include <stdio.h>
+
+int main() {	
+	printf("Hello Wrold!!!");
+	return 0;
+}
+{% endhighlight %}
+</code></pre></div>
