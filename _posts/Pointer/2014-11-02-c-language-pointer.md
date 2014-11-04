@@ -216,8 +216,9 @@ int main() {
 
 **프로그래밍**
 
-<textarea rows="5" cols="40">
-</textarea>
+<iframe width="800" height="700" frameborder="0"
+        src="http://www.compileonline.com/compile_c_online.php">
+</iframe>
 
 <input type="button" value="정답제출">
 
@@ -283,3 +284,10 @@ void maxMin(int** pmax, int** pmin, int* arr) {
 </textarea>
 
 <input type="button" value="제출">
+
+
+<iframe width="800" height="500" frameborder="0"
+        src="http://pythontutor.com/iframe-embed.html#code=x+%3D+5%0Ay+%3D+10%0Az+%3D+x+%2B+y&cumulative=false&py=2&curInstr=3">
+</iframe>
+
+
