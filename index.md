@@ -47,7 +47,7 @@ C언어는 최근까지도 향상되고 있는 언어이다.
 
 int main() {	
 	printf("Hello World!!!!!");
-<<<<<<< HEAD
+
 	return 0;
 }
 {% endhighlight %}
@@ -66,8 +66,6 @@ int main() {
         
 	z = x;
    
-=======
->>>>>>> 5e101420aca706de6853453a8de5481fc4bfa859
 	return 0;
 }
 {% endhighlight %}
