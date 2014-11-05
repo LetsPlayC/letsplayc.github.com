@@ -72,6 +72,6 @@ int main() {
 
 다음은 위 프로그램을 시각화 한 것이다.
 
-<iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=x+%3D+7%0Ay+%3D+10%0A%09%0Aif+x+%3E%3D+5%3A%0A++++x+%3D+x+%2B+y%0A%09++++%0Az+%3D+x&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&rawInputLstJSON=%5B%5D&curInstr=0&codeDivWidth=350&codeDivHeight=400"> </iframe>
+<iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=x+%3D+7%0Ay+%3D+10%0A%0Aif+x+%3E%3D+5%3A%0A++++x+%3D+x+%2B+y%0A++++%0Az+%3D+x&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&rawInputLstJSON=%5B%5D&curInstr=0&codeDivWidth=350&codeDivHeight=400"> </iframe>
 
 보다시피 C언어는 처음문장에서 시작하여 흐름을 따라 마지막 문장까지 실행시키는 절차지향적 프로그램 언어이다.
